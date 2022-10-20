@@ -3,6 +3,7 @@ const add = require ('./add')
 const del = require('./del')
 const present = require('./present')
 const update = require('./update')
+const write = require('./write')
 
 const cmd = process.argv
 
@@ -42,5 +43,12 @@ if (cmd[2]== 'update') {
     }
     const oldNote = read ()
     update (note, oldNote)
-    console.log (update)
+    
+
+    present(read())
  }  
+
+if(cmd[2] == 'write'){
+
+    console.log(write())
+}
