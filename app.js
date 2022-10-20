@@ -16,13 +16,12 @@ const note = {
 
 const oldNote = read()
 add(note, oldNote)
-console.log('---------add----------')
 
 }
 
 if (cmd [2]==='read') {
 console.log(read())
-console.log('---------read----------')
+
 
 }
 
@@ -31,7 +30,7 @@ if ( cmd[2]==='delete') {
     oldNote = read()
     del(id,oldNote)
     read()
-    console.log('---------delete----------')
+
 }
 
 
@@ -43,5 +42,5 @@ if (cmd[2]== 'update') {
     }
     const oldNote = read ()
     update (note, oldNote)
-    console.log ('---------update----------')
+    console.log (update)
  }  
